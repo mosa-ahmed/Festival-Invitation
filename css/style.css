@@ -1,0 +1,201 @@
+#home{
+    width: 100%;
+    color: #fff;
+    background-image: url(../images/events-heavenly-header.jpg);
+    position: relative;
+    height: 660px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.home-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+#leftmenu{
+    position: fixed;
+    background-color: #111;
+    top: 0;
+    left: 0;
+    padding-top: 60px;
+    width: 0;
+    z-index: 1;
+    transition: .5s;
+    height: 100%;
+    overflow-x: hidden;
+}
+.sidenav a{
+    text-decoration: none;
+    color: #fff;
+    transition: .3s;
+    display: block;
+    padding: 20px 8px 20px 32px;
+    font-size: 25px;
+
+}
+#home h2{
+    margin-top: 200px;
+}
+#home h2,p{
+    text-align: center;
+}
+.sidenav
+{
+    background-color: #414658;
+}
+.sidenav a:hover{
+    color:  rgba(214, 46, 51 , 0.4);
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#home-content {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+#home-content h2
+{
+    font-size: 60px;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+/* Accordion Section */
+#sliderDown{
+    width: 50%;
+    margin: 100px auto;
+}
+#sliderDown h3{
+    padding: 10px;
+    margin: 0;
+    color: #fff;
+    cursor: pointer;
+    background-color: rgba(214, 46, 51, .6);
+}
+#sliderDown div{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+#sliderDown div.first{
+    display: block;
+}
+
+/* Timing Section */
+#count{
+    height: 330px;
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+}
+#count .count-overlay{
+    background-color: rgba(214, 46, 51, .6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+.container{
+    padding: 100px 0;
+}
+.time{
+    padding: 50px;
+    border: 1px solid #fff;
+    font-weight: 500;
+    font-size: 30px;
+}
+/* Contact Section */
+#contact{
+    margin-top: 100px;
+}
+#contact .head h2{
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+#contact .head p{
+    color: #777;
+    font-size: 16px;
+    font-weight: 300;
+}
+#contact .contact-info h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+}
+#contact .contact-info p{
+    color: #777;
+    font-size: 16px;
+    line-height: 26px;
+}
+#contact .icons{
+    margin-top: 50px;
+}
+#contact .icons p{
+    margin-bottom: 35px;
+}
+#contact .icons i{
+    color: #777;
+    margin-right: 20px;
+}
+#contact .red{
+    color: #D62E33 !important;
+}
+#contact .social-list{
+    margin-top: 60px;
+    color: #777;
+}
+#contact .social-list i{
+    height: 40px;
+    width: 40px;
+    line-height: 42px;
+    border: 1px solid #999;
+    margin-right: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+#contact .social-list i:hover{
+    color: #fff;
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+#contact form input,
+#contact form textarea{
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+#contact form textarea{
+    height: 200px;
+    resize:vertical;
+}
+
+#contact form button{
+    background-color: #D62E33;
+    color:#fff;
+    padding:10px 20px;
+    border-radius: 0;
+    text-transform: uppercase
+}
+
+#chars
+{
+    font-size: 20px;
+    color: #D62E33;
+}
